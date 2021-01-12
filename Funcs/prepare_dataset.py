@@ -25,6 +25,8 @@ def prepare_dataset(covid19data,
         countries_data = covid19data.getLocations(timelines = True)        
         allcountries_latest = []
         for i in range(0, len(countries_data), 1):
+            if countries_data[i]["province"] == "Repatriated Travellers":
+                continue
             df_country = {"country": countries_data[i]["country"],
                           "country_code": countries_data[i]["country_code"],
                           "country_population": countries_data[i]["country_population"],

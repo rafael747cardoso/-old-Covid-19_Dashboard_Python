@@ -40,6 +40,7 @@ df_all_countries = prepare_dataset(covid19data = covid19data,
 
 #-----------------------------------------------------------------------------------------------------------------------
 ### One-time calls
+
 def world_total_cases():
     return(format(df_world_total["cases_cumulative"][0], ",").replace(",", " "))
 
