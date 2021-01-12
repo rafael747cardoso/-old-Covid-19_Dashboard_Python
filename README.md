@@ -2,7 +2,7 @@
 # Covid-19 Evolution Dashboard
 
 ### Dashboard url:
-https://covid19-dashboard-python.herokuapp.com
+https://covid19-dash-python.herokuapp.com
 
 Here you will see a panel of the confirmed cases of the Covid-19 global pandemic made with Python and Dash.
 The data is updated nearly daily from the data source.

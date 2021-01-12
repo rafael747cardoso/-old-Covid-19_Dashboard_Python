@@ -138,3 +138,4 @@ zope.hookable==5.0.1
 zope.interface==5.1.2
 zope.lifecycleevent==4.3
 zope.proxy==4.3.5
+COVID19Py==0.3.0
